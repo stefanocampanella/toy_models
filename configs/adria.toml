@@ -1,0 +1,28 @@
+surface_only = true
+start = 1999-01-01T00:00:00
+stop = 2022-07-31T00:00:00
+step = {'days' = 1}
+random = true
+nsamples = 1024
+replace = false 
+
+[copernicusmarine]
+minimum_latitude = 43.5
+minimum_longitude = 12.0
+maximum_longitude = 16.0
+
+[[datasets]]
+dataset_id = "med-ogs-pft-rean-d"
+variables = ["chl"]
+
+[[datasets]]
+dataset_id = "med-ogs-nut-rean-d"
+variables = ["po4", "no3"]
+
+[[datasets]]
+dataset_id = "med-cmcc-sal-rean-d"
+variables =  ["so"]
+
+[[datasets]]
+dataset_id = "med-cmcc-tem-rean-d"
+variables = ["thetao"]

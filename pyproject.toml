@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools >= 61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "toy_models"
+version = "0.1.0"
+dependencies = ["graphcast[interactive] @ git+https://github.com/stefanocampanella/graphcast.git@develop"]
+requires-python = "==3.11.6"
+authors = [{name="Stefano Campanella", email="<15182642+stefanocampanella@users.noreply.github.com>"}]
+description = "Collection of toy models for test and development on Leonardo."
+readme = {file = "README.md", content-type = "text/markdown"}
+classifiers = ["Development Status :: 3 - Alpha",
+               "Intended Audience :: Science/Research",
+               "License :: OSI Approved :: Apache Software License",
+               "Operating System :: POSIX :: Linux",
+               "Programming Language :: Python :: 3.10",
+               "Programming Language :: Python :: 3.11",
+               "Topic :: Scientific/Engineering :: Artificial Intelligence",
+               "Topic :: Scientific/Engineering :: Atmospheric Science",
+               "Topic :: Scientific/Engineering :: Physics"]
+
+[project.urls]
+Homepage = "https://github.com/stefanocampanella/toy_models"

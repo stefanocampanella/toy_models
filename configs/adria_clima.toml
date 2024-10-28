@@ -1,0 +1,11 @@
+
+surface_only = true
+
+[copernicusmarine]
+minimum_latitude = 43.5
+minimum_longitude = 12.0
+maximum_longitude = 16.0
+
+[[datasets]]
+dataset_id = "cmems_mod_med_phy_my_4.2km-climatology_P1M-m"
+variables =  ["so_avg", "so_std", "thetao_avg", "thetao_std"]
